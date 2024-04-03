@@ -1,0 +1,33 @@
+/* Reset default margin and padding */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+/* Apply some basic styling to the floating images container */
+.floating-images {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+/* Style individual floating images */
+.floating-images img {
+    position: absolute;
+    animation: float 5s infinite; /* Adjust animation duration as needed */
+}
+
+/* Keyframes for floating animation */
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
