@@ -2,13 +2,13 @@
   "name": "Photography-website",
   "version": "1.0.0",
   "description": "Welcome to my photography portfolio website! This README.md file contains instructions on setting up and running the website locally, as well as other relevant information.",
-  "main": "index.js",
+  "main": "server.js",
   "dependencies": {
     "force": "^0.0.3"
   },
   "devDependencies": {},
   "scripts": {
-    "start": "node index.js",
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

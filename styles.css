@@ -5,6 +5,12 @@ body, html {
     height: 100%;
 }
 
+/* Apply background color to the whole page */
+body {
+    background-color: #333; /* Dark gray background color */
+    color: white; /* White text color */
+}
+
 /* Apply some basic styling to the floating images container */
 .floating-images {
     position: relative;
